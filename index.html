@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Clarity Core - Workshop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" href="./node_modules/@clr/core/global.min.css">
+	<link rel="stylesheet" href="./node_modules/@clr/city/css/bundles/default.min.css">
+</head>
+
+<body cds-text="body" cds-layout="vertical gap:md p:lg" style="max-width: 400px">
+	<h1 cds-text="heading">Todo Workshop</h1>
+
+	<section cds-layout="vertical gap:md">
+
+	</section>
+
+	<template>
+		<div cds-layout="horizontal gap:sm">
+			<span cds-layout="align:left">todo item</span>
+			<cds-inline-button name="edit">edit</cds-inline-button> |
+			<cds-inline-button name="delete">delete</cds-inline-button>
+		</div>
+	</template>
+
+	<cds-button>Add Todo</cds-button>
+
+	<cds-modal hidden>
+		<cds-input layout="vertical" cds-layout="m-y:md">
+			<label>Add Todo</label>
+			<input type="text" />
+    </cds-input>
+			<cds-button>Save</cds-button>
+	</cds-modal>
+	 
+</body>
+
+</html>

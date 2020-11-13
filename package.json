@@ -1,0 +1,11 @@
+{
+  "name": "clarity-core-ts-starter",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@clr/city": "^1.1.0",
+    "@clr/core": "^4.0.6",
+    "lit-element": "^2.4.0",
+    "normalize.css": "^8.0.1"
+  }
+}
